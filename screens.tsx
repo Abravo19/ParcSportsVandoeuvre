@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Presentation, RentalConfig, Room, Event, League } from './types';
 import { EventCard, RoomCard, LeagueCard } from './components';
@@ -8,7 +9,7 @@ export const HomeScreen = ({ data, onChangeTab }: {
 }) => (
   <div className="animate-fade-in pb-32">
     {/* Hero */}
-    <div className="relative h-[550px] w-full overflow-hidden rounded-b-[3rem] shadow-2xl mb-10 -mt-6">
+    <div className="relative h-[550px] w-full overflow-hidden rounded-3xl shadow-2xl mb-10 mt-6">
       <img
         src={data.presentation.heroImage}
         alt="Hero"
